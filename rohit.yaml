@@ -36,10 +36,10 @@ spec:
         resources:
           requests:
             memory: "70Mi"
-            cpu: "151m"
+            cpu: "100m"
           limits:
-            memory: "128Mi"
-            cpu: "200m"
+            memory: "100Mi"
+            cpu: "120m"
       terminationGracePeriodSeconds: 60
 ---
 apiVersion: policy/v1beta1
