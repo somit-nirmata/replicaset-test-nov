@@ -35,7 +35,7 @@ spec:
         image: nginx:latest
         resources:
           requests:
-            memory: "72Mi"
+            memory: "73Mi"
             cpu: "101m"
           limits:
             memory: "100Mi"
