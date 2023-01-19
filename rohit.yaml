@@ -27,7 +27,6 @@ spec:
                 matchLabels:
                   environment: prod
                   nibr-app-name: pph-ui
-              namespaces: []
               topologyKey: kubernetes.io/hostname
             weight: 10
       containers:
