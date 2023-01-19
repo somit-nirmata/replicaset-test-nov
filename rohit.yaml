@@ -14,8 +14,6 @@ spec:
       nibr-app-name: pph-ui
   template:
     metadata:
-      annotations:
-        imageregistry: "https://hub.docker.com/"
       labels:
         environment: prod
         nibr-app-name: pph-ui
