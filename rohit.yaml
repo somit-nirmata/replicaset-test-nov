@@ -5,7 +5,7 @@ metadata:
     environment: prod
     nibr-app-name: pph-ui
     testkey: testvalue
-  name: pph-ui-deploy-prd-1
+  name: pph-ui-deploy-prd-2
 spec:
   replicas: 3
   selector:
