@@ -16,6 +16,7 @@ spec:
     metadata:
       annotations:
         imageregistry: "https://hub.docker.com/"
+        kubernetes.io/os: "linux"
       labels:
         environment: prod
         nibr-app-name: pph-ui
