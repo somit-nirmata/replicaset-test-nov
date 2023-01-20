@@ -2,9 +2,8 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    environment: prod
+    environment: prod22
     nibr-app-name: pph-ui
-    testkey: testvalue
   name: pph-ui-deploy-prd-2
 spec:
   replicas: 3
@@ -18,7 +17,7 @@ spec:
         imageregistry: "https://hub.docker.com/"
         kubernetes.io/os: "linux"
       labels:
-        environment: prod
+        environment: prod22
         nibr-app-name: pph-ui
     spec:
       affinity:
