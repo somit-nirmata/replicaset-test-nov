@@ -33,7 +33,7 @@ spec:
             weight: 10
       containers:
       - name: nginx
-        image: nginx:latest
+        image: nginx:stable
         resources:
           requests:
             memory: "90Mi"
